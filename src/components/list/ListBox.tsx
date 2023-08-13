@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 import { Meal, useMealContext } from '@/context/MealsContext';
-import React, { useState, useCallback, use, useEffect } from 'react';
+import React, { useState, useCallback,  useEffect } from 'react';
 import classNames from 'classnames';
 import { DetailsModal } from '../modal/DetailsModal';
 import Image from 'next/image';
