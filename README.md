@@ -59,7 +59,7 @@ Follow these steps to get the application up and running on your local machine:
 - Implemented the pagination inside the component because the API wasn't supporting the pagination.
 - For a system of this level I would prefer to not use any state management library because it has its own performance overheads. I would prefer a combination of prop sharing, useMemo and useCallbacks to create a good state sharing mechanism. Implemented the Context API with reducers for the sake of functional requirement.
 - For styling I chose tailwind because its very easy to type and after Tailwind v3.0 there has been immense performance gains so prefered it, along with tailwind I also used SCSS for custom stylings on the main page.
-- For testing I wrote unit tests only, I haven't have any experience with integration tests on frontend so wasn't sure about them. For unit tests I chose the `SearchBar`` component because here the main action is happening, with a bunch of loading states, responses and hooks it was fun to test this component out.
+- For testing I wrote unit tests only, I haven't have any experience with integration tests on frontend so wasn't sure about them. For unit tests I chose the `SearchBar` component because here the main action is happening, with a bunch of loading states, responses and hooks it was fun to test this component out.
 - Chose next's own image component to render images because it provides lazy loading and many other optimization options to load images properly.
 - Decided to build my own custom modal using headless-ui and it comes with a bunch of cool transitions, do check them out.
 - An Assumption I made while testing is that SearchBar is the only main component with an actual API call that needs to be tested.
