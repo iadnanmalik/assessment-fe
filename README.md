@@ -1,7 +1,6 @@
-# Assessment Frontend Application
+# Food Search
 
-This is a frontend application built using Next.js 13, utilizing various technologies and libraries including React, TypeScript, React Query, custom hooks, context API, reducers, and more. The application implements a food search solution that displays a list of food images. Users can search and query for specific foods, and details about each food item can be viewed in a separate page.
-
+The application implements a food search solution that displays a list of food images. Users can search and query for specific foods, and details about each food item can be viewed in a modal. The following [![Food API](https://www.themealdb.com/api.php)](https://www.themealdb.com/api.php) was used to fetch the data regarding multiple meals available.  This is a frontend application built using Next.js 13, utilizing various technologies and libraries including React, TypeScript, React Query, custom hooks, context API, reducers, and more. 
 ## Features
 
 - List of Food Images: The application displays a list of food images that users can explore.
